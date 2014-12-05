@@ -3688,8 +3688,10 @@ public class PhotoModule
             }
         } else {
             mFocusManager.overrideFocusMode(mParameters.getFocusMode());
-            if (hdrOn)
+            if (CameraUtil.isSupported(Parameters.FLASH_MODE_OFF,
+                    mParameters.getSupportedFlashModes())) {
                 mParameters.setFlashMode(Parameters.FLASH_MODE_OFF);
+            }
             if (CameraUtil.isSupported(Parameters.WHITE_BALANCE_AUTO,
                     mParameters.getSupportedWhiteBalance())) {
                 mParameters.setWhiteBalance(Parameters.WHITE_BALANCE_AUTO);
