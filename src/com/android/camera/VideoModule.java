@@ -1787,7 +1787,7 @@ public class VideoModule implements CameraModule,
             RotateTextToast.makeText(mActivity, R.string.error_app_unsupported_video_hdr,
                     Toast.LENGTH_LONG).show();
             mStartRecPending = false;
-            return;
+            return false;
         }
 
         //??
