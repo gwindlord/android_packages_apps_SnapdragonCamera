@@ -292,4 +292,19 @@
     <string name="cannot_load_image" msgid="4100136187076585580">"Не удалось загрузить изображение"</string>
     <string name="switch_photo_filmstrip" msgid="1448511001008888767">"Лента"</string>
     <string name="setting_wallpaper" msgid="2397759659347872725">"Установка обоев…"</string>
+
+    <string name="pref_camera_savepath_title">Хранилище</string>
+    <string name="pref_camera_savepath_entry_0">Внутренняя память</string>
+    <string name="pref_camera_savepath_entry_1">Диск USB OTG</string>
+    <string name="pref_camera_picturesize_entry_20mp">20 Мпикс</string>
+    <string name="pref_camera_picturesize_entry_16mp">16Мпикс</string>
+    <string name="pref_camera_picturesize_entry_12mp">12Мпикс</string>
+    <string name="pref_camera_picturesize_entry_square">Квадрат (1:1)</string>
+    <string name="pref_camera_scenemode_entry_refocus">Макро+</string>
+    <string name="HDR_disable_continuous_shot">Включение HDR отключит постоянную съемку.</string>
+    <string name="advanced_capture_disable_continuous_shot">Включение расширенного захвата отключит постоянную съемку.</string>
+    <string name="video_quality_4k_disable_IS">Включение 4k-видео отключит IS.</string>
+    <string name="remaining_photos_format">%d осталось</string>
+    <string name="refocus_toast">Для перефокусировки нажмите здесь</string>
+
 </resources>
