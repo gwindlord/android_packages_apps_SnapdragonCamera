@@ -927,5 +927,11 @@
      <string name="pref_camera_shutter_speed_value_1">1000000</string>
      <string name="pref_camera_shutter_speed_value_2">2000000</string>
 
+    <string name="pref_camera_save_dng_title">Save DNG raw</string>
+    <string name="pref_camera_save_dng_on">On</string>
+    <string name="pref_camera_save_dng_off">Off</string>
+    <string name="pref_camera_save_dng_value_on">on</string>
+    <string name="pref_camera_save_dng_value_off">off</string>
+
 </resources>
 

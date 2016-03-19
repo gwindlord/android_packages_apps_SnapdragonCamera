@@ -1000,7 +1000,7 @@ public class CameraUtil {
                 }
             }
 
-            return result;
+            return String.valueOf(result) + "_one_plus_one";
         }
     }
 
