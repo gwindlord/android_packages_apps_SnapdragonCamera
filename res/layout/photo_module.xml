@@ -66,6 +66,10 @@
             android:layout_height="200dip"
             android:layout_marginTop="15dip"
             android:layout_marginLeft="15dip" />
+        <com.android.camera.Grids
+            android:id="@+id/grids"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
     </RelativeLayout>
     <ImageView
         android:id="@+id/review_image"
