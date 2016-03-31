@@ -293,7 +293,7 @@ public class PhotoModule
     // The value for android.hardware.Camera.setDisplayOrientation.
     private int mCameraDisplayOrientation;
     // The value for UI components like indicators.
-    public int mDisplayOrientation;
+    private int mDisplayOrientation;
     // The value for android.hardware.Camera.Parameters.setRotation.
     private int mJpegRotation;
     // Indicates whether we are using front camera
@@ -1024,7 +1024,7 @@ public class PhotoModule
                 //dng.setExifData(mISO, 0, 0, 0, 0, "", Integer.toString((mMirror) ? mDisplayOrientation + 180 : mDisplayOrientation), 0);
                 dng.WriteDNG(devices);
                 data = null;
-                new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE").setData(Uri.fromFile(file));
+                //new Intent("android.intent.action.MEDIA_SCANNER_SCAN_FILE").setData(Uri.fromFile(file));
                 file.delete(); // removing original raw - causes BitmapFactory error later, cannot find where, but does not ruin anything
             }
         }
