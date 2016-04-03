@@ -1,4 +1,4 @@
-package com.troop.androiddng;
+package com.android.camera;
 
 public class Matrixes
 {
