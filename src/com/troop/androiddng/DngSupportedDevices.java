@@ -1,4 +1,4 @@
-package com.android.camera;
+package com.troop.androiddng;
 
 import com.android.camera.util.DeviceUtils;
 

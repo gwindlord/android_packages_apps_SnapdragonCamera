@@ -3,7 +3,7 @@
   * Copyright (C) 2013 Hensence.com
   */
 
-package com.android.camera;
+package com.troop.androiddng;
 
 import java.nio.ByteBuffer;
 import com.android.camera.util.DeviceUtils;

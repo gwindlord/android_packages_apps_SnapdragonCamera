@@ -106,6 +106,9 @@ import android.os.SystemProperties;
 import java.util.Collections;
 import java.util.Formatter;
 
+import com.troop.androiddng.RawToDng;
+import com.troop.androiddng.DngSupportedDevices;
+
 public class PhotoModule
         implements CameraModule,
         PhotoController,
