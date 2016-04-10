@@ -548,7 +548,7 @@
 
     <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
-    <string name="pref_camera_jpegquality_default" translatable="false">85</string>
+    <string name="pref_camera_jpegquality_default" translatable="false">95</string>
 
     <!-- Default Picture format setting. Do not translate. -->
     <string name="pref_camera_picture_format_default">jpeg</string>
@@ -705,9 +705,12 @@
     <string name="pref_camera_jpegquality_title">Picture quality</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
-    <string name="pref_camera_jpegquality_entry_0">Low</string>
-    <string name="pref_camera_jpegquality_entry_1">Standard</string>
-    <string name="pref_camera_jpegquality_entry_2">High</string>
+    <string name="pref_camera_jpegquality_entry_5">100%</string>
+    <string name="pref_camera_jpegquality_entry_4">95%</string>
+    <string name="pref_camera_jpegquality_entry_3">85%</string>
+    <string name="pref_camera_jpegquality_entry_2">75%</string>
+    <string name="pref_camera_jpegquality_entry_1">65%</string>
+    <string name="pref_camera_jpegquality_entry_0">55%</string>
 
      <!-- Default auto histogram setting. Do not translate. -->
      <string name="pref_camera_histogram_default">disable</string>
