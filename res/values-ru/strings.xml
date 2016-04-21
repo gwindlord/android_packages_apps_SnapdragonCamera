@@ -104,6 +104,7 @@
     <item quantity="one" msgid="8919878087230098328">"1 сек."</item>
     <item quantity="other" msgid="5782794798884172289">"%d сек."</item>
   </plurals>
+
     <!-- no translation found for pref_camera_timer_sound_default (6225207881203007747) -->
     <skip />
     <string name="pref_camera_timer_sound_title" msgid="9036987234878551217">"Сигнал"</string>
@@ -307,4 +308,11 @@
     <string name="remaining_photos_format">%d осталось</string>
     <string name="refocus_toast">Для перефокусировки нажмите здесь</string>
 
+   <string name="manual_focus_popup_title_text">Ручная фокусировка</string>
+   <string name="manual_focus_alert_title_text">Настройка ручной фокусировки</string>
+   <string name="manual_focus_alert_cancel">Отмена</string>
+   <string name="manual_focus_current_focus_pos">Текущее значение фокусировки:</string>
+   <string name="manual_focus_enter_focus_pos">Введите значение фокусировки в диапазоне от</string>
+   <string name="manual_focus_to">до</string>
+   <string name="manual_focus_invalid_position">Неверное значение фокусировки</string>
 </resources>
